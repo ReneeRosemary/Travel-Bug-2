@@ -1,0 +1,453 @@
+*,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+
+input:active,
+input:focus,
+textarea:focus,
+input:hover {
+    border: none !important;
+    outline: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui;
+    background-image: url(images/Ellipse\ 43.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+   background-size: contain;
+}
+
+nav.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+nav.nav-bar h1 {
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+
+nav.nav-bar ul {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    margin: auto;
+}
+
+nav.nav-bar ul li {
+    margin: 1rem;
+    margin-right: 5rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+nav.nav-bar ul li button {
+    background: #CD04FF;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.menu-bar {
+    visibility: hidden;
+}
+
+.menu-bar:hover+aside {
+    left: 5px;
+}
+
+aside {
+    position: fixed;
+    z-index: 1;
+    left: -275px;
+    top: 75px;
+    padding: 2rem;
+    background-color: #000000;
+    width: 200px;
+    border-radius: 10px;
+    transition: all 0.6s ease-in-out;
+}
+
+.menu-bar {
+    position: fixed;
+    right: 10px;
+    top: 17px;
+    width: 25px;
+    cursor: pointer;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    margin: auto;
+}
+
+aside ul li {
+    margin: 1rem;
+    margin-right: 5rem;
+    font-weight: 700;
+}
+
+aside ul li button {
+    background: #CD04FF;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+section.top >div {
+    width: 80%;
+    background: #7ced7b;
+    /* height: 60vh;*/
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 4rem;
+    position: relative;
+    padding:0 1rem ;
+    padding-bottom: 3rem;
+}
+
+.whitegirl {
+    position: absolute;
+    height: 71vh;
+    bottom: -0.6rem;
+    left: -1.5rem;
+}
+
+.dots {
+    position: absolute;
+    width: 10%;
+    height: 40vh;
+    top: -2.5rem;
+    left: 9rem;
+}
+
+section.top div h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-left: 13rem;
+}
+
+section.top div h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+
+section.top div h3 {
+    font-size: small;
+    position: absolute;
+    right: 4rem;
+    top: 17rem;
+}
+
+.yellow {
+    width: 30%;
+    height: 60vh;
+    position: absolute;
+    right: -4rem;
+    top: -5.5rem;
+}
+
+.purple {
+    width: 20%;
+    height: 50vh;
+    position: absolute;
+    right: -0.7rem;
+    top: -5.3rem;
+}
+
+.shortboy {
+    width: 25%;
+    height: 55vh;
+    position: absolute;
+    right: -5rem;
+    top: -6.3rem;
+}
+
+.shortgirl {
+    height: 30vh;
+    position: absolute;
+    right: 13rem;
+    top: 10rem;
+    z-index: 1;
+}
+
+.maskgroup {
+    width: 7%;
+    position: absolute;
+    right: 5rem;
+    bottom: 4rem;
+}
+
+.whitecircle {
+    width: 3%;
+    position: absolute;
+    right: 4.5rem;
+    bottom: 5.5rem;
+}
+
+.triangle {
+    width: 1.5%;
+    position: absolute;
+    right: 5rem;
+    bottom: 6rem;
+}
+
+section.bottom {
+    margin-top: 3rem;
+}
+section.bottom h2 {
+    margin-left: 4rem;
+}
+div.pictures {
+    display: flex;
+    justify-content: center;
+}
+div.rec{
+    width: 20%;
+    margin: 2rem;
+}
+div.rec img{
+    width: 100%;
+}
+
+div.part{
+    display:inline-flex;
+    background: #ffffff !important;
+   /* justify-content: center;*/
+    width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 5.5rem;
+}
+div.part div{
+    background: #ffffff !important;
+    border-right: 2px solid #cacaca;
+    padding: 1rem;
+    font-size: small;
+}
+div.part1{
+    display: flex;
+}
+div.part1 img{
+    width: 20px;
+    margin-right: 0.5rem;
+}
+div.part2{
+    display: flex;
+}
+div.part2 img{
+    width: 30px;
+    margin-right: 0.5rem;
+}
+div.part3{
+    display: flex;
+    border-right: 0 !important;
+}
+div.part3 img{
+    width: 30px;
+    margin-right: 0.5rem; 
+}
+label {
+    display: grid;
+}
+div.online{
+    background: #000000;
+    color: #ffffff;
+    width:200px;
+    padding:0.5rem 1rem;
+    border-radius: 30px 30px 0 0;
+    display: block;
+    text-align: center;
+    margin:30px 10px 0 10px;
+    white-space: nowrap;
+    margin-left: 6rem;
+}
+div.Book{
+    background:#ff7b38 !important ;
+    width: 100px;
+    position: absolute;
+    right: 19rem;
+    top: 15.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: inline;
+}
+div.Book button{
+    background:#ff7b38 !important ;
+   color: #ffffff;
+}
+@media all and (max-width:780px) {
+    nav.nav-bar ul {
+        display: none;
+    }
+
+    nav.nav-bar p:hover+aside {
+        left: -275px;
+    }
+
+    .menu-bar {
+        visibility: visible;
+        position: fixed;
+        right: 10px;
+        top: 17px;
+        width: 25px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    section.top >div {
+        width: 90%;
+        background: #7ced7b;
+        margin: auto;
+        border-radius: 30px;
+        margin-top: 4rem;
+        position: relative;
+    }
+    section.top div h1 {
+        color: #ffffff;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin: 0.5rem;
+    }
+
+    section.top div h2 {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 0.5rem;
+    }
+    .yellow {
+        display: none;
+    }
+
+    .purple {
+        display: none;
+    }
+
+    .shortboy {
+        display: none;
+    }
+
+    .shortgirl {
+        display: none;
+    }
+
+    .maskgroup {
+        display: none;
+    }
+     .dots{
+        display: none;
+     }
+    .whitecircle {
+        display: none;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+    .whitegirl {
+        display: none;
+    }
+    .rainbow{
+        width: 30px;
+    }
+    section.top div h2 {
+        font-size:1rem;
+    }
+    section.top div h3 {
+        display: none;
+    }
+    div.part{
+        display:flex;
+        flex-direction: column;
+        background: #ffffff !important;
+        justify-content: center;
+        width: 80%;
+        border-radius: 10px;
+        overflow: hidden;
+        width: 90%;
+        margin:auto;
+        padding: 1rem;
+    }
+    div.part div{
+        background: #ffffff !important;
+        border-right: 0;
+        border-bottom: 2px solid #cacaca;
+        padding: 0rem;
+        font-size: small;
+    }
+    div.Book{
+        background:#ff7b38 !important ;
+        width: 100px;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        text-align: center;
+        display: block;
+        margin:auto;
+        margin-top: 1rem;
+        position: unset;
+    }
+    div.online{
+        background: #000000 !important;
+        color: #ffffff;
+        width:200px;
+        padding:0.5rem 1rem;
+        border-radius: 30px 30px 0 0 ;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 2rem;
+        white-space: nowrap;
+    }
+    div.part1{
+       margin: 1rem;
+    }
+    div.part2{
+        margin: 1rem;
+    }
+    div.part3{
+        margin: 1rem;
+    }
+    section.bottom h2{
+        font-size: 1rem;
+    }
+    section.bottom h2 {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    div.pictures {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    div.rec{
+        width: 90%;
+        margin: auto;
+    }
+    div.rec img{
+        width: 100%;
+    }
+}
